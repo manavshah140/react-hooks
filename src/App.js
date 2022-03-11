@@ -10,6 +10,7 @@ import UseEffectEvent from './Components/UseEffect/UseEffectEvent';
 import Uncontrolled from './Components/Forms/Uncontrolled';
 import UseReducer from './Components/UseReducer/UseReducer';
 import ComA from './Components/UseContext/ComA';
+import CustomHooks from './Components/UseEffect/CustomHooks';
 
 const App = () => {
     return(
@@ -22,7 +23,8 @@ const App = () => {
         {/* <UseEffectEvent /> */}
         {/* <Uncontrolled /> */}
         {/* <UseReducer /> */}
-        <ComA />
+        {/* <ComA /> */}
+        <CustomHooks />
       </>
     )
 }
