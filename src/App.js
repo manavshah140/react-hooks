@@ -1,25 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import UseState from "./Components/UseState/UseState"
+// import RulesHooks from "./Components/RulesHooks";
+import UseStateArray from './Components/UseState/UseStateArray';
+import UseStateObject from './Components/UseState/UseStateObject';
+import UseEffectClick from './Components/UseEffect/UseEffectClick';
+import UseEffectEvent from './Components/UseEffect/UseEffectEvent';
+import Uncontrolled from './Components/Forms/Uncontrolled';
+import UseReducer from './Components/UseReducer/UseReducer';
+import ComA from './Components/UseContext/ComA';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return(
+      <>
+        {/* <UseState /> */}
+        {/* <RulesHooks /> */}
+        {/* <UseStateArray /> */}
+        {/* <UseStateObject /> */}
+        {/* <UseEffectClick /> */}
+        {/* <UseEffectEvent /> */}
+        {/* <Uncontrolled /> */}
+        {/* <UseReducer /> */}
+        <ComA />
+      </>
+    )
 }
 
 export default App;
